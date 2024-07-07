@@ -22,10 +22,9 @@ Actuation:<br />
 python actuations.py<br />
 <br />
 Main Application:<br />
-Run app.py to start the main application.<br />
 python app.py<br />
 <br />
 # Usage
-**Data Collection**: The data_collection.py script will continuously collect data from connected IoT sensors and send it to the designated storage.
-**Actuation**: The actuations.py script will listen for actuation commands and control the IoT devices accordingly.
-**Application Interface**: The app.py script provides a user interface to manage and monitor the IoT system.
+**Data Collection**: The data_collection.py script will continuously collect data from connected IoT sensors and send it to the designated storage. <br />
+**Actuation**: The actuations.py script will listen for actuation commands and control the IoT devices accordingly. <br />
+**Application Interface**: The app.py script provides a user interface to manage and monitor the IoT system.<br />
