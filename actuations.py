@@ -8,6 +8,7 @@ import gspread
 import RPi.GPIO as GPIO
 import requests
 from datetime import datetime, timedelta
+from send_notif import send_pushover_notification
 
 # setting up google sheets
 sa = gspread.service_account(
@@ -17,17 +18,6 @@ sh = sa.open("Sensing IoT Data")
 
 wks = sh.worksheet("Actuation")
 
-
-def send_pushover_notification(message):
-    data = {
-        "token": 'adcsz1ji2ip9667afkopmq99rp1dwa',
-        "user": 'u1vf525mbh3j29r4udep22b4vkn2fa',
-        "message": message
-    }
-
-    response = requests.post(
-        "https://api.pushover.net/1/messages.json", data=data)
-    return response.json()
 
 
 # Sensor setup
