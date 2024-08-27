@@ -74,9 +74,9 @@ pygame==2.5.2
 PyGetWindow==0.0.9
 PyJWT==2.8.0
 PyMsgBox==1.0.9
-pyobjc-core==10.0
-pyobjc-framework-Cocoa==10.0
-pyobjc-framework-Quartz==10.0
+# pyobjc-core==10.0
+# pyobjc-framework-Cocoa==10.0
+# pyobjc-framework-Quartz==10.0
 pyparsing==3.1.1
 pyperclip==1.8.2
 PyRect==0.2.0
